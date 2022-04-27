@@ -13,7 +13,7 @@ public class MyGrpcClient {
         HelloResponse helloResponse = stub.hello(
                 HelloRequest.newBuilder()
                         .setName("shenpengpeng")
-                        .setAge(281)
+                        .setAge(28155)
                         .addHobbies("football")
                         .putTags( "how?","wonderful" )
                         .build());
