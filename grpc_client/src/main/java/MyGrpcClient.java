@@ -14,7 +14,7 @@ public class MyGrpcClient {
                 HelloRequest.newBuilder()
                         .setName("shenpengpeng")
                         .setAge(28155)
-                        .addHobbies("football")
+                        .addHobbies("football dev")
                         .putTags( "how?","wonderful" )
                         .build());
         System.out.println(helloResponse);
